@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FairPlay Sports Hub | Sports & Entertainment</title>
+  <meta name="description" content="Explore the world of sports, including cricket, football, basketball and tennis. Visit FairPlay247 through the external website link.">
+
+  <meta name="theme-color" content="#07152e">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+      background: #07152e;
+      min-height: 100vh;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 18px;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse at 50% 0%, #174b83 0%, transparent 48%),
+        linear-gradient(145deg, #061027, #0b2345 55%, #061027);
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero::before {
+      top: -130px;
+      left: -100px;
+    }
+
+    .hero::after {
+      bottom: -170px;
+      right: -100px;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 760px;
+      text-align: center;
+    }
+
+    .brand {
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 38px;
+    }
+
+    .brand span {
+      color: #ff8b24;
+    }
+
+    .eyebrow {
+      color: #ffbd54;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(38px, 8vw, 76px);
+      line-height: 1.05;
+      font-weight: 900;
+      letter-spacing: -2px;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      display: block;
+      color: #ff9b28;
+    }
+
+    .description {
+      max-width: 540px;
+      margin: 0 auto 30px;
+      color: #c8d5e9;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .sports {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 0 auto 35px;
+    }
+
+    .sport {
+      padding: 10px 15px;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 30px;
+      background: rgba(255,255,255,0.05);
+      font-size: 13px;
+      color: #e5edfa;
+    }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      min-height: 58px;
+      padding: 17px 34px;
+      border-radius: 10px;
+      background: linear-gradient(100deg, #ff8b20, #ffb52d);
+      color: #101a2c;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      box-shadow: 0 8px 30px rgba(255,139,32,0.22);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 35px rgba(255,139,32,0.35);
+    }
+
+    .arrow {
+      font-size: 22px;
+    }
+
+    .notice {
+      max-width: 540px;
+      margin: 25px auto 0;
+      color: #9aacc5;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .notice a {
+      color: #ffc36c;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      margin-top: 38px;
+      color: #7487a3;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 480px) {
+      .brand {
+        margin-bottom: 30px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .cta {
+        width: 100%;
+        max-width: 340px;
+        padding: 16px 20px;
+      }
+
+      .sport {
+        padding: 9px 12px;
+        font-size: 12px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="hero">
+    <section class="content">
+
+      <div class="brand"><span>PLAY</span> SPORTS</div>
+
+      <p class="eyebrow">The World of Sports</p>
+
+      <h1>
+        PASSION FOR
+        <span>EVERY GAME.</span>
+      </h1>
+
+      <p class="description">
+        Discover the excitement of the sporting world,
+        from cricket and football to basketball and tennis.
+        Explore your interest in sports through our
+        external sports gaming destination.
+      </p>
+
+      <div class="sports" aria-label="Sports categories">
+        <span class="sport">🏏 Cricket</span>
+        <span class="sport">⚽ Football</span>
+        <span class="sport">🏀 Basketball</span>
+        <span class="sport">🎾 Tennis</span>
+      </div>
+
+      <a
+        class="cta"
+        href="https://www.fairplay247.asia/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Continue to the external FairPlay247 website"
+      >
+        CLICK HERE TO CONTINUE
+        <span class="arrow">→</span>
+      </a>
+
+      <p class="notice">
+        You are leaving this landing page when you continue.
+        The button opens
+        <a href="https://www.fairplay247.asia/"
+           target="_blank"
+           rel="noopener noreferrer">Play247.asia</a>,
+        an external website. Please review its terms and
+        applicable local laws before using its services.
+        Adults only where required by law.
+      </p>
+
+      <footer>
+        SPORTS • ENTERTAINMENT • RESPONSIBLE PARTICIPATION
+      </footer>
+
+    </section>
+  </main>
+</body>
+</html>
+```
